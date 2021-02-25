@@ -1,5 +1,9 @@
 # TryingOutAngular
 
+The purpose of this project is to get a feel for the Angular framework.
+
+The project follows [this guide](https://www.youtube.com/watch?v=_TLhUCjY9iA) by DesignCourse on youtube.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.2.
 
 ## Development server
