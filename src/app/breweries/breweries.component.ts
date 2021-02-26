@@ -1,4 +1,6 @@
+import { NONE_TYPE } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
+import { HttpService } from '../http.service';
 
 @Component({
   selector: 'app-breweries',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BreweriesComponent implements OnInit {
 
-  constructor() { }
+  breweries: any;
 
-  ngOnInit(): void {
+  constructor(private _http: HttpService) { }
+
+  ngOnInit() {
+    this._http.getBreweries().subscribe(data => {
+      this.breweries = data;
+      console.log(this.breweries);
+    });
   }
 
 }
