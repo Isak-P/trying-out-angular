@@ -4,7 +4,9 @@ The purpose of this project is to get a feel for the Angular framework.
 
 The project follows [this guide](https://www.youtube.com/watch?v=_TLhUCjY9iA) by DesignCourse on youtube.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.2.
+The finished project is hosted [here](https://youthful-swanson-e7d728.netlify.app/).
+
+The project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.2.
 
 ## Development server
 
